@@ -24,4 +24,4 @@ def sshUpdateMyServers(hostname, port, username, password, command):
     print(stdout.read())
 
 if __name__ == '__main__':
-    sshUpdateMyServers('10.10.10.246', 22, 'pi', '!PiNetw@rk2017!', 'sudo ping 8.8.8.8')
+    sshUpdateMyServers('10.10.10.246', 22, 'pi', '!PiNetw@rk2017!', 'sudo apt-get update')
