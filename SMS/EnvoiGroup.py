@@ -44,7 +44,7 @@ if __name__ == '__main__':
         print(f'Destinataire groupe : {association}')
         print(f"Chargement du fichier de contacts de {association +'.json'} ... ")
 
-        with open('Cebstjoseph.json') as contacts:
+        with open('association + ".json"') as contacts:
                 listContacts = json.load(contacts)
         
         for contact in listContacts:
