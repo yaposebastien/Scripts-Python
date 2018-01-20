@@ -11,21 +11,21 @@ import netmiko
 import weakref
 import os
 import json
-from getpass import getpass
+import identification
 
 
 #Creation de la Classe Device
 
 class Device:
     liste_Of_Devices = []
-    def __init__(self, ipDevice, typeOfDevice, descriptionDevice):
+    def __init__(self, ipDevice, device_type, descriptionDevice):
         self.ipDevice = ipDevice
-        self.typeOfDevice = typeOfDevice
+        self.device_type = device_type
         self.descriptionDevice = descriptionDevice
         self.__class__.liste_Of_Devices.append(weakref.proxy(self))
 
     def listOfDevices(self):
-        return 'IP: {} -- TYPE: {} -- DESC: {}'.format(self.ipDevice, self.typeOfDevice, self.descriptionDevice)
+        return 'IP: {} -- TYPE: {} -- DESC: {}'.format(self.ipDevice, self.device_type, self.descriptionDevice)
 
     def displayDevices():
         print('\nListe of the devices in my network.\n')
@@ -53,53 +53,37 @@ class Device:
         os.system('sudo ping -c 10 "%s"' %(ipDevice))
 
 
-    def checkTime():
-        print(f'Checking the time of the device....')
-        Connexion = netmiko.ConnectHandler(ip=ipDevice, device_type=typeOfDevice, username=username, password=password)
-        print(Connexion.send_command('show clock')
-        connexion.disconnect()
+    def commandShowClock( username, password):
+        for device in Device.liste_Of_Devices:
+            print('#'*80)
+            print(f'Getting time of the device : {device.ipDevice} -- {device.descriptionDevice}')
+            connection = netmiko.ConnectHandler(ip=device.ipDevice, device_type=device.device_type, username=username, password=password)
+            print(connection.send_command('show clock'))
+            connection.disconnect()
 
-    def setTime():
-        print(f'Setting the time of the device....')
+if __name__ == '__main__' :
 
-    def displayDeviceConfiguration():
-        print(f'Display the configuration of the device ....')
+    print('#'*30 + "Application Network Monitor" + '#'*30)
 
+    #Instanciation de la classe Device
+    Conversion = Device('192.168.10.2', 'cisco_ios', 'Switch 3650 hostname conversion')
+    #Faith = Device('192.168.30.3', 'cisco_ios', 'Router 3825 hostname Faith')
+    Charity = Device('192.168.40.3', 'cisco_ios', 'Router 3825 hostname Charity')
 
-
-
-
-if __name__ == '__main__':
-
-    #Instanciation of device class
-    Conversion = Device('192.168.10.2', 'cisco_ios', 'Swicth 3650 and hostname Conversion')
-    Faith = Device('192.168.30.3', 'cisco_ios', 'Router 3825 and hostname Faith First Router')
-    Charity = Device('192.168.40.3', 'cisco_ios', 'Router 3825 and hostname Charity Second Router')
-
-    username = get_entree('Username:')
-    password = get_entree('Password:')
-
-    done = False
 
 
     try:
-
-        while done == False: #Cette loop permets d'executer le block suivant car done = False
-            Device.displayDevices()
-            print('\n')
+        username, password = identification.identification()
+        done = False
+        while done == False:
+            ##Insert sending sms to me for alert
             Device.menuOfApplication()
-            print(f"Choice : ", end=' ')
-            option = input()
-            if option == "1":
-                     print('Pinging device......')
-                     for device in Device.liste_Of_Devices:
-                        print('#'*80)
-                        print(f'Ping the device: {device.descriptionDevice}\n')
-                        Device.pingDevice(device.ipDevice)
-
-            elif option == "0":
-                print('End of application Gestion Network. Thanks!')
+            optionUser = input('Enter your choice :')
+            if optionUser == '0':
                 done = True
+            elif optionUser == '2':
+                Device.commandShowClock(username,password)
 
-    except Exception as expt:
-        print(f'Error Application: {expt.message}')
+
+    except Exception as excpt:
+        print(str(excpt.message))
