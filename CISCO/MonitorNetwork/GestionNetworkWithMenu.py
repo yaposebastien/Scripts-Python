@@ -12,6 +12,11 @@ import weakref
 import os
 import json
 import identification
+import signal
+
+#Les deux lignes suivantes permettent la non apparution a l'ecran des  messages d interruptions
+signal.signal(signal.SIGPIPE, signal.SIG_DFL) # IOError for Broken Pipe
+signal.signal(signal.SIGINT, signal.SIG_DFL) # Interruption de clavier
 
 
 #Creation de la Classe Device
@@ -48,9 +53,11 @@ class Device:
             print(f'\t Press[0] to quit the application.\n')
 
 
-    def pingDevice(ipDevice):
+    def pingDevice():
         #Going to ping the device ten times
-        os.system('sudo ping -c 10 "%s"' %(ipDevice))
+        for device in Device.liste_Of_Devices:
+            print(f'Pinging device : {device.ipDevice} {device.descriptionDevice}')
+            os.system('sudo ping -c 10 "%s"' %(device.ipDevice))
 
 
     def commandShowClock( username, password):
@@ -83,6 +90,8 @@ if __name__ == '__main__' :
                 done = True
             elif optionUser == '2':
                 Device.commandShowClock(username,password)
+            elif optionUser == '1':
+                Device.pingDevice()
 
 
     except Exception as excpt:
