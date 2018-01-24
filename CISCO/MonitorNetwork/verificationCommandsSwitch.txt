@@ -1,0 +1,9 @@
+show version
+show flash:
+show mac-address-table
+show controllers ethernet-controller
+show running config
+show startup-config
+show post
+show vlan
+show interfaces
