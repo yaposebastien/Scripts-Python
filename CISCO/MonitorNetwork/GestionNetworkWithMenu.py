@@ -39,21 +39,29 @@ class Device:
             print(Device.listOfDevices(device))
 
     def verificationCommandsSwitch():
+        #Ouverture du fichier contenant la liste des commmandes
         with open('verificationCommandsSwitch.txt', 'r') as fichier_commandes_Switch:
             commandes = fichier_commandes_Switch.readlines()
-            for singleCommand in commandes:
-                for device in Device.liste_Of_Devices:
-                    if device.ciscoDevice == 'Switch':
-                        print(f'Excecution de la commande --> {singleCommand} sur le Switch : "%s"' %(device.ipDevice))
-                        connection = netmiko.ConnectHandler(ip=device.ipDevice, device_type=device.device_type, username=username, password=password)
-                        dossier = connection.base_prompt
+            for device in Device.liste_Of_Devices:
+                if device.ciscoDevice == 'Switch':
+                    #Initialisation de la connection au device
+                    connection = netmiko.ConnectHandler(ip=device.ipDevice, device_type=device.device_type, username=username, password=password)
+                    #Creation du dossier qui va recevoir les sorties des commandes
+                    dossier = connection.base_prompt
+                    try:
                         os.mkdir(dossier)
-                        fichier = singleCommand.replace(' ','_')+ '.conf'
-                        fichier = '/'.join((dossier, fichier))
+                    except OSError as errorCreationFichier:
+                        if errorCreationFichier.errno == 17:
+                            print(f'Le dossier {dossier} exists deja')
+                        else:
+                            raise
+                    for singleCommand in commandes:
+                        fichier = singleCommand.rstrip().replace(' ','_')+'.txt'
+                        fichier = os.path.join(dossier, fichier)
                         with open(fichier, 'w') as sortie_commande:
-                            sortie_commande.write(connection.send_command(singleCommand))
-                        connection.close()
-                        print()
+                            sortie_commande.write(connection.send_command(singleCommand)+'\n')
+                    connection.disconnect()
+
 
     def setInterfaceDescription():
         print('###Setting Interface Description of the device....###\n')
@@ -110,6 +118,25 @@ class Device:
                 print(connection.send_command('name {vlanName}'))
                 print(connection.send_command('exit'))
                 connection.close()
+
+    def assignPortVlan():
+        print('###Assigning port to a Vlan...###\n')
+        ipAddress = input('Enter the IP address of the device:')
+        vlanNumber = input('Enter your Vlan number :')
+        answer = 'y'
+        for device in Device.liste_Of_Devices:
+            if device.ipDevice == ipAddress:
+                while answer == 'y':
+                    interfVlan = input('Enter the interface number : ')
+                    connection = netmiko.ConnectHandler(ip=device.ipDevice, device_type=device.device_type, username=username, password=password)
+                    print(connection.send_command('configure terminal'))
+                    print(connection.send_command('interface {interfVlan}'))
+                    print(connection.send_command('switchport mode access'))
+                    print(connection.send_command('switchport access vlan {vlanNumber}'))
+                    print(connection.send_command('exit'))
+                    connection.close()
+                    answer = input('Do you want to add another interface? y/n')
+
     def menuOfApplication():
 
             print(f'\t Press[D]isplay all the devices.')
@@ -119,6 +146,7 @@ class Device:
             print(f'\t\t Press[3] to set Duplex Operation on the device.')
             print(f'\t\t Press[4] to set Operation Speed.')
             print(f'\t\t Press[5] to create Static VLAN.')
+            print(f'\t\t Press[6] to assign Ports to a VLAN.')
             print(f'\t Press[R]outing Technologies: IPv4 and IPv6')
             print(f'\t Press[W]AN Technologies')
             print(f'\t Press[I]nfrastructure Services')
@@ -159,10 +187,10 @@ if __name__ == '__main__' :
         while done == False:
             ##Insert sending sms to me for alert
             Device.menuOfApplication()
-            optionUser = input('Enter your menu choice {D, S, I , etc.} :')
-            optionSubMenu = input('Enter your subMenu choice {1, 2, 3, etc.} :')
+            optionUser = input('\t\tEnter your menu choice {D, S, I , etc.} :')
+            optionSubMenu = input('\t\tEnter your subMenu choice {1, 2, 3, etc.} :')
 
-            if optionUser == 'Q' or 'q':
+            if optionUser == 'Q' or 'q' and optionSubMenu == '':
                 print(f'Exit Application Gestion Network')
                 done = True
             elif optionUser == 'D':
@@ -175,7 +203,12 @@ if __name__ == '__main__' :
                 Device.setDuplexOperation()
             elif optionUser == 'S' or 's' and optionSubMenu == '4':
                 Device.setOperationSpeed()
-
+            elif optionUser == 'S' or 's' and optionSubMenu == '5':
+                Device.createStaticVlan()
+            elif optionUser == 'S' or 's' and optionSubMenu == '6':
+                Device.assignPortVlan()
+            else:
+                print('Sorry! Wrong option Menu')
 
     except Exception as excpt:
         print(str(excpt.message))
