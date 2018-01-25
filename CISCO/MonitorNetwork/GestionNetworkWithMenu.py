@@ -34,7 +34,7 @@ class Device:
         return 'IP: {} -- TYPE: {} -- DESC: {} -- DEVIC: {}'.format(self.ipDevice, self.device_type, self.descriptionDevice, self.ciscoDevice)
 
     def displayDevices():
-        print('\nListe of the devices in my network.\n')
+        print('###List of the devices in my network....###\n')
         for device in Device.liste_Of_Devices:
             print(Device.listOfDevices(device))
 
@@ -56,27 +56,75 @@ class Device:
                         print()
 
     def setInterfaceDescription():
-        print('Setting Interface Description of the device.\n')
-        ipAddress = input(
+        print('###Setting Interface Description of the device....###\n')
+        ipAddress = input('Please enter the IP address of the device:')
         interfaceName = input('Please enter the interface to set the description :')
-        interfaceDescription = input
+        interfaceDescription = input('Enter the interface description:')
+        for device in Device.liste_Of_Devices:
+            if device.ipDevice == ipAddress:
+                connection = netmiko.ConnectHandler(ip=device.ipDevice, device_type=device.device_type, username=username, password=password)
+                print(connection.send_command('configure terminal'))
+                print(connection.send_command('interface {interfaceName}'))
+                print(connection.send_command('description {interfaceDescription}'))
+                connection.close()
+            else:
+                print(f'This IP address {ipAddress} does not exist in the network')
 
+    def setDuplexOperation():
+        print('###Setting the Duplex Operation of the device...###\n')
+        ipAddress = input('Enter the IP address of the device:')
+        interfaceName = input('Enter the interface to set the description :')
+        duplexOperation = input('In which Duplex Operation do you want to set? full, auto or half')
+        for device in Device.liste_Of_Devices:
+            if device.ipDevice == ipAddress:
+                connection = netmiko.ConnectHandler(ip=device.ipDevice, device_type=device.device_type, username=username, password=password)
+                print(connection.send_command('configure terminal'))
+                print(connection.send_command('interface {interfaceName}'))
+                print(connection.send_command('duplex {duplexOperation}'))
+                connection.close()
 
+    def setOperationSpeed():
+        print('###Setting the Operation Speed  of the device...###\n')
+        ipAddress = input('Enter the IP address of the device:')
+        interfaceName = input('Enter the interface to set the speed :')
+        speedOperation = input('In which Speed Operation do you want to set? 10, 100 or auto')
+        for device in Device.liste_Of_Devices:
+            if device.ipDevice == ipAddress:
+                connection = netmiko.ConnectHandler(ip=device.ipDevice, device_type=device.device_type, username=username, password=password)
+                print(connection.send_command('configure terminal'))
+                print(connection.send_command('interface {interfaceName}'))
+                print(connection.send_command('speed {speedOperation}'))
+                connection.close()
+
+    def createStaticVlan():
+        print('###Creating static Vlan of the device...###\n')
+        ipAddress = input('Enter the IP address of the device:')
+        vlanNumber = input('Enter your Vlan number :')
+        vlanName = input('Enter your Vlan name :')
+
+        for device in Device.liste_Of_Devices:
+            if device.ipDevice == ipAddress:
+                connection = netmiko.ConnectHandler(ip=device.ipDevice, device_type=device.device_type, username=username, password=password)
+                print(connection.send_command('configure terminal'))
+                print(connection.send_command('vlan {vlanNumber}'))
+                print(connection.send_command('name {vlanName}'))
+                print(connection.send_command('exit'))
+                connection.close()
     def menuOfApplication():
 
-            print(f'\nGestion Network Devices\n')
-            print(f'\nPlease press any choice to proceed \n')
-            print(f'\t Press[1] to display all the devices.')
-            print(f'\t Press[2] to display basic infos Switch in the Network. eg. Version, flash, etc.')
-            print(f'\t Press[3] to set an interface description.')
-            print(f'\t Press[2] to check device time.')
-            print(f'\t Press[3] to set device time.')
-            print(f'\t Press[4] to display configuration of device.')
-            print(f'\t Press[5] to display any section of the device configuration.')
-            print(f'\t Press[6] to display any port configuration of  the device.')
-            print(f'\t Press[7] to display any section of the device configuration.')
-            print(f'\t Press[8] to Backup up all the configuration.')
-            print(f'\t Press[0] to quit the application.\n')
+            print(f'\t Press[D]isplay all the devices.')
+            print(f'\t Press[S]witching Technologies.')
+            print(f'\t\t Press[1] to display basic infos Switch in the Network. eg. Version, flash, etc.')
+            print(f'\t\t Press[2] to set an interface description.')
+            print(f'\t\t Press[3] to set Duplex Operation on the device.')
+            print(f'\t\t Press[4] to set Operation Speed.')
+            print(f'\t\t Press[5] to create Static VLAN.')
+            print(f'\t Press[R]outing Technologies: IPv4 and IPv6')
+            print(f'\t Press[W]AN Technologies')
+            print(f'\t Press[I]nfrastructure Services')
+            print(f'\t Press[C]Infrastructure Security')
+            print(f'\t Press[M]infrastructure Management')
+            print(f'\t Press[Q]uit the application.\n')
 
 
     def pingDevice():
@@ -111,13 +159,22 @@ if __name__ == '__main__' :
         while done == False:
             ##Insert sending sms to me for alert
             Device.menuOfApplication()
-            optionUser = input('Enter your choice :')
-            if optionUser == '0':
+            optionUser = input('Enter your menu choice {D, S, I , etc.} :')
+            optionSubMenu = input('Enter your subMenu choice {1, 2, 3, etc.} :')
+
+            if optionUser == 'Q' or 'q':
+                print(f'Exit Application Gestion Network')
                 done = True
-            elif optionUser == '1':
-                Device.commandShowClock(username,password)
-            elif optionUser == '2':
+            elif optionUser == 'D':
+                Device.displayDevices()
+            elif optionUser == 'S' or 's' and optionSubMenu == '1':
                 Device.verificationCommandsSwitch()
+            elif optionUser == 'S' or 's' and optionSubMenu == '2':
+                Device.setInterfaceDescription()
+            elif optionUser == 'S' or 's' and optionSubMenu == '3':
+                Device.setDuplexOperation()
+            elif optionUser == 'S' or 's' and optionSubMenu == '4':
+                Device.setOperationSpeed()
 
 
     except Exception as excpt:
