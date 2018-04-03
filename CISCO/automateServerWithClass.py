@@ -9,7 +9,7 @@ import smtplib
 
 #Credentials to log into the servers
 username = 'pi'
-password = '!PiNetw@rk2017!'
+password = 'mot_de_passe'
 port = 5555
 
 
