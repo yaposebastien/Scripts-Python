@@ -1,5 +1,9 @@
 #!/usr/bin/env python3.6
 from __future__ import absolute_import, division, print_function
+from dotenv import load_dotenv
+
+load_dotenv()
+
 
 """
 Ce programme permets de gerer le parc de switchs et routers dans ton reseau.
@@ -182,7 +186,8 @@ if __name__ == '__main__' :
 
 
     try:
-        username, password = identification.identification()
+        username = os.environ.get('SWITCH_USERNAME')
+        password = os.environ.get('SWITCH_PASSWORD')
         done = False
         while done == False:
             ##Insert sending sms to me for alert
