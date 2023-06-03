@@ -53,10 +53,12 @@ class Device:
                     #Creation du dossier qui va recevoir les sorties des commandes
                     dossier = connection.base_prompt
                     try:
+                        #Check if the folder of the base exists before create it
                         os.mkdir(dossier)
                     except OSError as errorCreationFichier:
                         if errorCreationFichier.errno == 17:
                             print(f'Le dossier {dossier} exists deja')
+                            
                         else:
                             raise
                     for singleCommand in commandes:

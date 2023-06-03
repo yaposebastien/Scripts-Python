@@ -1,0 +1,10 @@
+
+Directory of flash:/
+
+    2  -rwx    10166416  Feb 28 1993 20:06:11 -04:00  c3550-ipservicesk9-mz.122-50.SE1.bin
+    3  -rwx         796  Dec 23 2017 16:42:33 -04:00  vlan.dat
+    4  -rwx        5144  Feb 28 1993 20:01:00 -04:00  multiple-fs
+    6  -rwx        4565  Feb 28 1993 20:01:00 -04:00  config.text
+    7  -rwx        3847  Feb 28 1993 20:01:00 -04:00  private-config.text
+
+15998976 bytes total (5815808 bytes free)

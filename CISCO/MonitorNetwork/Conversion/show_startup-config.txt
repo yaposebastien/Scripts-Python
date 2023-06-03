@@ -1,0 +1,216 @@
+Using 4565 out of 393216 bytes
+!
+version 12.2
+no service pad
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname Conversion
+!
+logging count
+logging buffered 16384
+enable secret 5 $1$NuC6$no.1vLQZlSfiBCA3PiOym/
+!
+username yaposebastien privilege 15 password 0 !Zeubien198i!
+username pi privilege 15 password 0 !PiNetw@rk2017!
+no aaa new-model
+clock timezone EST -4
+ip subnet-zero
+ip routing
+ip domain-name cable.rcn.com
+!
+!
+login on-failure log
+login on-success log
+!
+!
+crypto pki trustpoint TP-self-signed-3667992832
+ enrollment selfsigned
+ subject-name cn=IOS-Self-Signed-Certificate-3667992832
+ revocation-check none
+ rsakeypair TP-self-signed-3667992832
+!
+!
+crypto pki certificate chain TP-self-signed-3667992832
+ certificate self-signed 01 nvram:IOS-Self-Sig#3235.cer
+!
+!
+spanning-tree mode pvst
+spanning-tree etherchannel guard misconfig
+spanning-tree extend system-id
+!
+vlan internal allocation policy ascending
+!
+ip ssh version 2
+!
+! 
+!
+!
+!
+interface FastEthernet0/1
+ switchport access vlan 10
+ switchport mode access
+!
+interface FastEthernet0/2
+ switchport access vlan 10
+ switchport mode access
+!
+interface FastEthernet0/3
+ switchport access vlan 10
+ switchport mode access
+!
+interface FastEthernet0/4
+ switchport access vlan 10
+ switchport mode access
+!
+interface FastEthernet0/5
+ switchport access vlan 10
+ switchport mode access
+!
+interface FastEthernet0/6
+ switchport access vlan 10
+ switchport mode access
+!
+interface FastEthernet0/7
+ switchport access vlan 20
+ switchport mode access
+!
+interface FastEthernet0/8
+ switchport access vlan 20
+ switchport mode access
+!
+interface FastEthernet0/9
+ switchport access vlan 20
+ switchport mode access
+!
+interface FastEthernet0/10
+ switchport access vlan 20
+ switchport mode access
+!
+interface FastEthernet0/11
+ switchport access vlan 20
+ switchport mode access
+!
+interface FastEthernet0/12
+ switchport access vlan 20
+ switchport mode access
+!
+interface FastEthernet0/13
+ switchport mode dynamic desirable
+!
+interface FastEthernet0/14
+ switchport mode dynamic desirable
+!
+interface FastEthernet0/15
+ switchport mode dynamic desirable
+!
+interface FastEthernet0/16
+ switchport mode dynamic desirable
+!
+interface FastEthernet0/17
+ switchport mode dynamic desirable
+ shutdown
+!
+interface FastEthernet0/18
+ switchport mode dynamic desirable
+ shutdown
+!
+interface FastEthernet0/19
+ switchport mode dynamic desirable
+!
+interface FastEthernet0/20
+ no switchport
+ no ip address
+!
+interface FastEthernet0/21
+ switchport mode dynamic desirable
+!
+interface FastEthernet0/22
+ switchport access vlan 40
+ switchport mode access
+!
+interface FastEthernet0/23
+ switchport access vlan 30
+ switchport mode access
+!
+interface FastEthernet0/24
+ description firewall
+ switchport access vlan 10
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 10,20,30,40
+ switchport mode trunk
+ switchport port-security maximum 10
+ switchport port-security
+ switchport port-security violation restrict
+ switchport port-security mac-address sticky
+ switchport port-security mac-address sticky acf1.df6d.1498 vlan 10
+ switchport port-security mac-address sticky acf1.df6d.1498 vlan 20
+ switchport port-security mac-address sticky acf1.df6d.1498 vlan 30
+ switchport port-security mac-address sticky acf1.df6d.1498 vlan 40
+!
+interface GigabitEthernet0/1
+ switchport mode dynamic desirable
+!
+interface GigabitEthernet0/2
+ switchport mode dynamic desirable
+!
+interface Vlan1
+ no ip address
+ shutdown
+!
+interface Vlan10
+ ip address 192.168.10.2 255.255.255.0
+!
+interface Vlan20
+ ip address 192.168.20.2 255.255.255.0
+!
+interface Vlan30
+ ip address 192.168.30.2 255.255.255.0
+!
+interface Vlan40
+ ip address 192.168.40.2 255.255.255.0
+!
+router ospf 1
+ log-adjacency-changes
+ network 192.168.0.0 0.0.255.255 area 0
+!
+ip classless
+ip route 0.0.0.0 0.0.0.0 192.168.10.1
+ip route 0.0.0.0 0.0.0.0 192.168.1.1
+ip route 0.0.0.0 0.0.0.0 216.164.233.202
+ip route 10.10.10.0 255.255.255.0 10.10.10.200
+ip route 10.10.10.0 255.255.255.0 192.168.10.1
+ip route 192.168.10.0 255.255.255.0 192.168.10.1
+ip http server
+ip http secure-server
+!
+!
+logging trap debugging
+logging origin-id string ORIGIN_SW_DMZ
+logging facility local5
+logging source-interface FastEthernet0/24
+logging 10.10.10.253
+!
+control-plane
+!
+!
+line con 0
+ password !Zeubien198i!
+ login
+line vty 0 4
+ exec-timeout 60 0
+ password !Zeubien198i!
+ login local
+ transport input ssh
+line vty 5 15
+ exec-timeout 60 0
+ password !Zeubien198i!
+ login local
+ transport input ssh
+!
+ntp clock-period 17180260
+ntp server 204.2.134.163
+ntp server 192.168.10.3
+end
+

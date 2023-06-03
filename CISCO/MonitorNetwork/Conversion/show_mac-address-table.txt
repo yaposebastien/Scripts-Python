@@ -1,0 +1,58 @@
+          Mac Address Table
+-------------------------------------------
+
+Vlan    Mac Address       Type        Ports
+----    -----------       --------    -----
+ All    0012.daa1.2100    STATIC      CPU
+ All    0012.daa1.2101    STATIC      CPU
+ All    0012.daa1.2102    STATIC      CPU
+ All    0012.daa1.2103    STATIC      CPU
+ All    0012.daa1.2104    STATIC      CPU
+ All    0012.daa1.2105    STATIC      CPU
+ All    0012.daa1.2106    STATIC      CPU
+ All    0012.daa1.2107    STATIC      CPU
+ All    0012.daa1.2108    STATIC      CPU
+ All    0012.daa1.2109    STATIC      CPU
+ All    0012.daa1.210a    STATIC      CPU
+ All    0012.daa1.210b    STATIC      CPU
+ All    0012.daa1.210c    STATIC      CPU
+ All    0012.daa1.210d    STATIC      CPU
+ All    0012.daa1.210e    STATIC      CPU
+ All    0012.daa1.210f    STATIC      CPU
+ All    0012.daa1.2110    STATIC      CPU
+ All    0012.daa1.2111    STATIC      CPU
+ All    0012.daa1.2112    STATIC      CPU
+ All    0012.daa1.2113    STATIC      CPU
+ All    0012.daa1.2115    STATIC      CPU
+ All    0012.daa1.2116    STATIC      CPU
+ All    0012.daa1.2117    STATIC      CPU
+ All    0012.daa1.2118    STATIC      CPU
+ All    0012.daa1.2119    STATIC      CPU
+ All    0012.daa1.211a    STATIC      CPU
+ All    0100.0c00.0000    STATIC      CPU
+ All    0100.0ccc.cccc    STATIC      CPU
+ All    0100.0ccc.cccd    STATIC      CPU
+ All    0100.0ccd.cdce    STATIC      CPU
+ All    0180.c200.0000    STATIC      CPU
+ All    0180.c200.0001    STATIC      CPU
+ All    0180.c200.0002    STATIC      CPU
+ All    0180.c200.0003    STATIC      CPU
+ All    0180.c200.0004    STATIC      CPU
+ All    0180.c200.0005    STATIC      CPU
+ All    0180.c200.0006    STATIC      CPU
+ All    0180.c200.0007    STATIC      CPU
+ All    0180.c200.0008    STATIC      CPU
+ All    0180.c200.0009    STATIC      CPU
+ All    0180.c200.000a    STATIC      CPU
+ All    0180.c200.000b    STATIC      CPU
+ All    0180.c200.000c    STATIC      CPU
+ All    0180.c200.000d    STATIC      CPU
+ All    0180.c200.000e    STATIC      CPU
+ All    0180.c200.000f    STATIC      CPU
+ All    0180.c200.0010    STATIC      CPU
+  10    acf1.df6d.1498    DYNAMIC     Fa0/24
+  20    9410.3eed.cd8f    DYNAMIC     Fa0/8
+  20    acf1.df6d.1498    DYNAMIC     Fa0/24
+  30    acf1.df6d.1498    DYNAMIC     Fa0/24
+  40    acf1.df6d.1498    DYNAMIC     Fa0/24
+Total Mac Addresses for this criterion: 52

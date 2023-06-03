@@ -1,0 +1,19 @@
+Stored system POST messages:
+POST: CPU Buffer Tests : Begin
+POST: CPU Buffer Tests : End, Status Passed
+POST: CPU Interface Tests : Begin
+POST: CPU Interface Tests : End, Status Passed
+POST: Switch Core Tests : Begin
+POST: Switch Core Tests : End, Status Passed
+POST: CPU Interface 2nd Stage Tests : Begin
+POST: CPU Interface 2nd Stage Tests : End, Status Passed
+POST: CAM Subsystem Tests : Begin
+POST: CAM Subsystem Tests : End, Status Passed
+POST: Ethernet Controller Tests : Begin
+POST: Ethernet Controller Tests : End, Status Passed
+POST: ILP Controller Tests : Begin
+POST: ILP Controller Tests : End, Status Passed
+POST: Loopback Tests : Begin
+POST: Loopback Tests : End, Status Passed
+
+

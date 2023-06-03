@@ -1,0 +1,1014 @@
+
+  Transmit FastEthernet0/1           Receive
+         0 Bytes                        0 Bytes                    
+         0 Unicast frames               0 Unicast frames           
+         0 Multicast frames             0 Multicast frames         
+         0 Broadcast frames             0 Broadcast frames         
+         0 Discarded frames             0 No dest, unicast         
+         0 Too old frames               0 No dest, multicast       
+         0 Deferred frames              0 No dest, broadcast       
+         0  1 collision frames 
+         0  2 collision frames          0 FCS errors               
+         0  3 collision frames          0 Oversize frames          
+         0  4 collision frames          0 Undersize frames         
+         0  5 collision frames          0 Collision fragments      
+         0  6 collision frames 
+         0  7 collision frames          0 Minimum size frames      
+         0  8 collision frames          0 65 to 127 byte frames    
+         0  9 collision frames          0 128 to 255 byte frames   
+         0 10 collision frames          0 256 to 511 byte frames   
+         0 11 collision frames          0 512 to 1023 byte frames  
+         0 12 collision frames          0 1024 to 1518 byte frames 
+         0 13 collision frames 
+         0 14 collision frames          0 Flooded frames           
+         0 15 collision frames          0 Overrun frames           
+         0 Excessive collisions         0 VLAN filtered frames     
+         0 Late collisions              0 Source routed frames     
+         0 Good (1 coll) frames         0 Valid oversize frames    
+         0 Good(>1 coll) frames         0 Pause frames             
+         0 Pause frames                 0 Symbol error frames      
+         0 VLAN discard frames          0 Invalid frames, too large
+         0 Excess defer frames          0 Valid frames, too large  
+         0 Too large frames             0 Invalid frames, too small
+         0 64 byte frames               0 Valid frames, too small  
+         0 127 byte frames     
+         0 255 byte frames     
+         0 511 byte frames     
+         0 1023 byte frames    
+         0 1518 byte frames    
+
+
+  Transmit FastEthernet0/2           Receive
+         0 Bytes                        0 Bytes                    
+         0 Unicast frames               0 Unicast frames           
+         0 Multicast frames             0 Multicast frames         
+         0 Broadcast frames             0 Broadcast frames         
+         0 Discarded frames             0 No dest, unicast         
+         0 Too old frames               0 No dest, multicast       
+         0 Deferred frames              0 No dest, broadcast       
+         0  1 collision frames 
+         0  2 collision frames          0 FCS errors               
+         0  3 collision frames          0 Oversize frames          
+         0  4 collision frames          0 Undersize frames         
+         0  5 collision frames          0 Collision fragments      
+         0  6 collision frames 
+         0  7 collision frames          0 Minimum size frames      
+         0  8 collision frames          0 65 to 127 byte frames    
+         0  9 collision frames          0 128 to 255 byte frames   
+         0 10 collision frames          0 256 to 511 byte frames   
+         0 11 collision frames          0 512 to 1023 byte frames  
+         0 12 collision frames          0 1024 to 1518 byte frames 
+         0 13 collision frames 
+         0 14 collision frames          0 Flooded frames           
+         0 15 collision frames          0 Overrun frames           
+         0 Excessive collisions         0 VLAN filtered frames     
+         0 Late collisions              0 Source routed frames     
+         0 Good (1 coll) frames         0 Valid oversize frames    
+         0 Good(>1 coll) frames         0 Pause frames             
+         0 Pause frames                 0 Symbol error frames      
+         0 VLAN discard frames          0 Invalid frames, too large
+         0 Excess defer frames          0 Valid frames, too large  
+         0 Too large frames             0 Invalid frames, too small
+         0 64 byte frames               0 Valid frames, too small  
+         0 127 byte frames     
+         0 255 byte frames     
+         0 511 byte frames     
+         0 1023 byte frames    
+         0 1518 byte frames    
+
+
+  Transmit FastEthernet0/3           Receive
+         0 Bytes                        0 Bytes                    
+         0 Unicast frames               0 Unicast frames           
+         0 Multicast frames             0 Multicast frames         
+         0 Broadcast frames             0 Broadcast frames         
+         0 Discarded frames             0 No dest, unicast         
+         0 Too old frames               0 No dest, multicast       
+         0 Deferred frames              0 No dest, broadcast       
+         0  1 collision frames 
+         0  2 collision frames          0 FCS errors               
+         0  3 collision frames          0 Oversize frames          
+         0  4 collision frames          0 Undersize frames         
+         0  5 collision frames          0 Collision fragments      
+         0  6 collision frames 
+         0  7 collision frames          0 Minimum size frames      
+         0  8 collision frames          0 65 to 127 byte frames    
+         0  9 collision frames          0 128 to 255 byte frames   
+         0 10 collision frames          0 256 to 511 byte frames   
+         0 11 collision frames          0 512 to 1023 byte frames  
+         0 12 collision frames          0 1024 to 1518 byte frames 
+         0 13 collision frames 
+         0 14 collision frames          0 Flooded frames           
+         0 15 collision frames          0 Overrun frames           
+         0 Excessive collisions         0 VLAN filtered frames     
+         0 Late collisions              0 Source routed frames     
+         0 Good (1 coll) frames         0 Valid oversize frames    
+         0 Good(>1 coll) frames         0 Pause frames             
+         0 Pause frames                 0 Symbol error frames      
+         0 VLAN discard frames          0 Invalid frames, too large
+         0 Excess defer frames          0 Valid frames, too large  
+         0 Too large frames             0 Invalid frames, too small
+         0 64 byte frames               0 Valid frames, too small  
+         0 127 byte frames     
+         0 255 byte frames     
+         0 511 byte frames     
+         0 1023 byte frames    
+         0 1518 byte frames    
+
+
+  Transmit FastEthernet0/4           Receive
+ 373551131 Bytes                 30566236 Bytes                    
+    394720 Unicast frames          246976 Unicast frames           
+   1079294 Multicast frames          1425 Multicast frames         
+      5679 Broadcast frames        147277 Broadcast frames         
+         0 Discarded frames             0 No dest, unicast         
+         0 Too old frames              23 No dest, multicast       
+         0 Deferred frames             60 No dest, broadcast       
+         0  1 collision frames 
+         0  2 collision frames          0 FCS errors               
+         0  3 collision frames          0 Oversize frames          
+         0  4 collision frames          0 Undersize frames         
+         0  5 collision frames          0 Collision fragments      
+         0  6 collision frames 
+         0  7 collision frames     162868 Minimum size frames      
+         0  8 collision frames     230063 65 to 127 byte frames    
+         0  9 collision frames       1042 128 to 255 byte frames   
+         0 10 collision frames        987 256 to 511 byte frames   
+         0 11 collision frames        312 512 to 1023 byte frames  
+         0 12 collision frames        489 1024 to 1518 byte frames 
+         0 13 collision frames 
+         0 14 collision frames          0 Flooded frames           
+         0 15 collision frames          0 Overrun frames           
+         0 Excessive collisions         0 VLAN filtered frames     
+         0 Late collisions              0 Source routed frames     
+         0 Good (1 coll) frames         0 Valid oversize frames    
+         0 Good(>1 coll) frames         0 Pause frames             
+         0 Pause frames                 0 Symbol error frames      
+         0 VLAN discard frames          0 Invalid frames, too large
+         0 Excess defer frames          0 Valid frames, too large  
+         0 Too large frames             0 Invalid frames, too small
+   1062021 64 byte frames               0 Valid frames, too small  
+    205541 127 byte frames     
+      1558 255 byte frames     
+     29626 511 byte frames     
+       828 1023 byte frames    
+    180119 1518 byte frames    
+
+
+  Transmit FastEthernet0/5           Receive
+         0 Bytes                        0 Bytes                    
+         0 Unicast frames               0 Unicast frames           
+         0 Multicast frames             0 Multicast frames         
+         0 Broadcast frames             0 Broadcast frames         
+         0 Discarded frames             0 No dest, unicast         
+         0 Too old frames               0 No dest, multicast       
+         0 Deferred frames              0 No dest, broadcast       
+         0  1 collision frames 
+         0  2 collision frames          0 FCS errors               
+         0  3 collision frames          0 Oversize frames          
+         0  4 collision frames          0 Undersize frames         
+         0  5 collision frames          0 Collision fragments      
+         0  6 collision frames 
+         0  7 collision frames          0 Minimum size frames      
+         0  8 collision frames          0 65 to 127 byte frames    
+         0  9 collision frames          0 128 to 255 byte frames   
+         0 10 collision frames          0 256 to 511 byte frames   
+         0 11 collision frames          0 512 to 1023 byte frames  
+         0 12 collision frames          0 1024 to 1518 byte frames 
+         0 13 collision frames 
+         0 14 collision frames          0 Flooded frames           
+         0 15 collision frames          0 Overrun frames           
+         0 Excessive collisions         0 VLAN filtered frames     
+         0 Late collisions              0 Source routed frames     
+         0 Good (1 coll) frames         0 Valid oversize frames    
+         0 Good(>1 coll) frames         0 Pause frames             
+         0 Pause frames                 0 Symbol error frames      
+         0 VLAN discard frames          0 Invalid frames, too large
+         0 Excess defer frames          0 Valid frames, too large  
+         0 Too large frames             0 Invalid frames, too small
+         0 64 byte frames               0 Valid frames, too small  
+         0 127 byte frames     
+         0 255 byte frames     
+         0 511 byte frames     
+         0 1023 byte frames    
+         0 1518 byte frames    
+
+
+  Transmit FastEthernet0/6           Receive
+         0 Bytes                        0 Bytes                    
+         0 Unicast frames               0 Unicast frames           
+         0 Multicast frames             0 Multicast frames         
+         0 Broadcast frames             0 Broadcast frames         
+         0 Discarded frames             0 No dest, unicast         
+         0 Too old frames               0 No dest, multicast       
+         0 Deferred frames              0 No dest, broadcast       
+         0  1 collision frames 
+         0  2 collision frames          0 FCS errors               
+         0  3 collision frames          0 Oversize frames          
+         0  4 collision frames          0 Undersize frames         
+         0  5 collision frames          0 Collision fragments      
+         0  6 collision frames 
+         0  7 collision frames          0 Minimum size frames      
+         0  8 collision frames          0 65 to 127 byte frames    
+         0  9 collision frames          0 128 to 255 byte frames   
+         0 10 collision frames          0 256 to 511 byte frames   
+         0 11 collision frames          0 512 to 1023 byte frames  
+         0 12 collision frames          0 1024 to 1518 byte frames 
+         0 13 collision frames 
+         0 14 collision frames          0 Flooded frames           
+         0 15 collision frames          0 Overrun frames           
+         0 Excessive collisions         0 VLAN filtered frames     
+         0 Late collisions              0 Source routed frames     
+         0 Good (1 coll) frames         0 Valid oversize frames    
+         0 Good(>1 coll) frames         0 Pause frames             
+         0 Pause frames                 0 Symbol error frames      
+         0 VLAN discard frames          0 Invalid frames, too large
+         0 Excess defer frames          0 Valid frames, too large  
+         0 Too large frames             0 Invalid frames, too small
+         0 64 byte frames               0 Valid frames, too small  
+         0 127 byte frames     
+         0 255 byte frames     
+         0 511 byte frames     
+         0 1023 byte frames    
+         0 1518 byte frames    
+
+
+  Transmit FastEthernet0/7           Receive
+ 141895411 Bytes               1219765174 Bytes                    
+    526899 Unicast frames          865690 Unicast frames           
+   1079264 Multicast frames           520 Multicast frames         
+    162532 Broadcast frames        117504 Broadcast frames         
+         0 Discarded frames             0 No dest, unicast         
+         0 Too old frames              22 No dest, multicast       
+         0 Deferred frames             66 No dest, broadcast       
+         0  1 collision frames 
+         0  2 collision frames          0 FCS errors               
+         0  3 collision frames          0 Oversize frames          
+         0  4 collision frames          0 Undersize frames         
+         0  5 collision frames          0 Collision fragments      
+         0  6 collision frames 
+         0  7 collision frames     119550 Minimum size frames      
+         0  8 collision frames      47978 65 to 127 byte frames    
+         0  9 collision frames       7077 128 to 255 byte frames   
+         0 10 collision frames       5884 256 to 511 byte frames   
+         0 11 collision frames      13784 512 to 1023 byte frames  
+         0 12 collision frames     789529 1024 to 1518 byte frames 
+         0 13 collision frames 
+         0 14 collision frames          0 Flooded frames           
+         0 15 collision frames          0 Overrun frames           
+         0 Excessive collisions         0 VLAN filtered frames     
+         0 Late collisions              0 Source routed frames     
+         0 Good (1 coll) frames         0 Valid oversize frames    
+         0 Good(>1 coll) frames         0 Pause frames             
+         0 Pause frames                 0 Symbol error frames      
+         0 VLAN discard frames          0 Invalid frames, too large
+         0 Excess defer frames          0 Valid frames, too large  
+         0 Too large frames             0 Invalid frames, too small
+   1205062 64 byte frames               0 Valid frames, too small  
+    421148 127 byte frames     
+    112502 255 byte frames     
+     29845 511 byte frames     
+        62 1023 byte frames    
+        76 1518 byte frames    
+
+
+  Transmit FastEthernet0/8           Receive
+ 458096507 Bytes                219903841 Bytes                    
+   4652729 Unicast frames         2054006 Unicast frames           
+   3665928 Multicast frames            43 Multicast frames         
+    222410 Broadcast frames         57903 Broadcast frames         
+         0 Discarded frames             6 No dest, unicast         
+         0 Too old frames               0 No dest, multicast       
+         0 Deferred frames            221 No dest, broadcast       
+         0  1 collision frames 
+         0  2 collision frames          0 FCS errors               
+         0  3 collision frames          0 Oversize frames          
+         0  4 collision frames          0 Undersize frames         
+         0  5 collision frames          0 Collision fragments      
+         0  6 collision frames 
+         0  7 collision frames     259219 Minimum size frames      
+         0  8 collision frames    1729068 65 to 127 byte frames    
+         0  9 collision frames      60823 128 to 255 byte frames   
+         0 10 collision frames      19006 256 to 511 byte frames   
+         0 11 collision frames      16852 512 to 1023 byte frames  
+         0 12 collision frames      27211 1024 to 1518 byte frames 
+         0 13 collision frames 
+         0 14 collision frames          0 Flooded frames           
+         0 15 collision frames          0 Overrun frames           
+         0 Excessive collisions         0 VLAN filtered frames     
+         0 Late collisions              0 Source routed frames     
+         0 Good (1 coll) frames         0 Valid oversize frames    
+         0 Good(>1 coll) frames         0 Pause frames             
+         0 Pause frames                 1 Symbol error frames      
+         0 VLAN discard frames          0 Invalid frames, too large
+         0 Excess defer frames          0 Valid frames, too large  
+         0 Too large frames             1 Invalid frames, too small
+   3928404 64 byte frames               0 Valid frames, too small  
+    823211 127 byte frames     
+    796715 255 byte frames     
+    135856 511 byte frames     
+     30223 1023 byte frames    
+   2826658 1518 byte frames    
+
+
+  Transmit FastEthernet0/9           Receive
+         0 Bytes                        0 Bytes                    
+         0 Unicast frames               0 Unicast frames           
+         0 Multicast frames             0 Multicast frames         
+         0 Broadcast frames             0 Broadcast frames         
+         0 Discarded frames             0 No dest, unicast         
+         0 Too old frames               0 No dest, multicast       
+         0 Deferred frames              0 No dest, broadcast       
+         0  1 collision frames 
+         0  2 collision frames          0 FCS errors               
+         0  3 collision frames          0 Oversize frames          
+         0  4 collision frames          0 Undersize frames         
+         0  5 collision frames          0 Collision fragments      
+         0  6 collision frames 
+         0  7 collision frames          0 Minimum size frames      
+         0  8 collision frames          0 65 to 127 byte frames    
+         0  9 collision frames          0 128 to 255 byte frames   
+         0 10 collision frames          0 256 to 511 byte frames   
+         0 11 collision frames          0 512 to 1023 byte frames  
+         0 12 collision frames          0 1024 to 1518 byte frames 
+         0 13 collision frames 
+         0 14 collision frames          0 Flooded frames           
+         0 15 collision frames          0 Overrun frames           
+         0 Excessive collisions         0 VLAN filtered frames     
+         0 Late collisions              0 Source routed frames     
+         0 Good (1 coll) frames         0 Valid oversize frames    
+         0 Good(>1 coll) frames         0 Pause frames             
+         0 Pause frames                 0 Symbol error frames      
+         0 VLAN discard frames          0 Invalid frames, too large
+         0 Excess defer frames          0 Valid frames, too large  
+         0 Too large frames             0 Invalid frames, too small
+         0 64 byte frames               0 Valid frames, too small  
+         0 127 byte frames     
+         0 255 byte frames     
+         0 511 byte frames     
+         0 1023 byte frames    
+         0 1518 byte frames    
+
+
+  Transmit FastEthernet0/10          Receive
+  77425680 Bytes                  7269969 Bytes                    
+    140218 Unicast frames            5716 Unicast frames           
+    698791 Multicast frames             0 Multicast frames         
+    175745 Broadcast frames        104190 Broadcast frames         
+         0 Discarded frames             0 No dest, unicast         
+         0 Too old frames              58 No dest, multicast       
+         0 Deferred frames             21 No dest, broadcast       
+         0  1 collision frames 
+         0  2 collision frames          0 FCS errors               
+         0  3 collision frames          0 Oversize frames          
+         0  4 collision frames          0 Undersize frames         
+         0  5 collision frames          0 Collision fragments      
+         0  6 collision frames 
+         0  7 collision frames     105998 Minimum size frames      
+         0  8 collision frames       2455 65 to 127 byte frames    
+         0  9 collision frames       1458 128 to 255 byte frames   
+         0 10 collision frames         71 256 to 511 byte frames   
+         0 11 collision frames          3 512 to 1023 byte frames  
+         0 12 collision frames          0 1024 to 1518 byte frames 
+         0 13 collision frames 
+         0 14 collision frames          0 Flooded frames           
+         0 15 collision frames          0 Overrun frames           
+         0 Excessive collisions         0 VLAN filtered frames     
+         0 Late collisions              0 Source routed frames     
+         0 Good (1 coll) frames         0 Valid oversize frames    
+         0 Good(>1 coll) frames         0 Pause frames             
+         0 Pause frames                 0 Symbol error frames      
+         0 VLAN discard frames          0 Invalid frames, too large
+         0 Excess defer frames          0 Valid frames, too large  
+         0 Too large frames             0 Invalid frames, too small
+    851646 64 byte frames               0 Valid frames, too small  
+    121148 127 byte frames     
+     22986 255 byte frames     
+     18820 511 byte frames     
+        13 1023 byte frames    
+       141 1518 byte frames    
+
+
+  Transmit FastEthernet0/11          Receive
+         0 Bytes                        0 Bytes                    
+         0 Unicast frames               0 Unicast frames           
+         0 Multicast frames             0 Multicast frames         
+         0 Broadcast frames             0 Broadcast frames         
+         0 Discarded frames             0 No dest, unicast         
+         0 Too old frames               0 No dest, multicast       
+         0 Deferred frames              0 No dest, broadcast       
+         0  1 collision frames 
+         0  2 collision frames          0 FCS errors               
+         0  3 collision frames          0 Oversize frames          
+         0  4 collision frames          0 Undersize frames         
+         0  5 collision frames          0 Collision fragments      
+         0  6 collision frames 
+         0  7 collision frames          0 Minimum size frames      
+         0  8 collision frames          0 65 to 127 byte frames    
+         0  9 collision frames          0 128 to 255 byte frames   
+         0 10 collision frames          0 256 to 511 byte frames   
+         0 11 collision frames          0 512 to 1023 byte frames  
+         0 12 collision frames          0 1024 to 1518 byte frames 
+         0 13 collision frames 
+         0 14 collision frames          0 Flooded frames           
+         0 15 collision frames          0 Overrun frames           
+         0 Excessive collisions         0 VLAN filtered frames     
+         0 Late collisions              0 Source routed frames     
+         0 Good (1 coll) frames         0 Valid oversize frames    
+         0 Good(>1 coll) frames         0 Pause frames             
+         0 Pause frames                 0 Symbol error frames      
+         0 VLAN discard frames          0 Invalid frames, too large
+         0 Excess defer frames          0 Valid frames, too large  
+         0 Too large frames             0 Invalid frames, too small
+         0 64 byte frames               0 Valid frames, too small  
+         0 127 byte frames     
+         0 255 byte frames     
+         0 511 byte frames     
+         0 1023 byte frames    
+         0 1518 byte frames    
+
+
+  Transmit FastEthernet0/12          Receive
+         0 Bytes                        0 Bytes                    
+         0 Unicast frames               0 Unicast frames           
+         0 Multicast frames             0 Multicast frames         
+         0 Broadcast frames             0 Broadcast frames         
+         0 Discarded frames             0 No dest, unicast         
+         0 Too old frames               0 No dest, multicast       
+         0 Deferred frames              0 No dest, broadcast       
+         0  1 collision frames 
+         0  2 collision frames          0 FCS errors               
+         0  3 collision frames          0 Oversize frames          
+         0  4 collision frames          0 Undersize frames         
+         0  5 collision frames          0 Collision fragments      
+         0  6 collision frames 
+         0  7 collision frames          0 Minimum size frames      
+         0  8 collision frames          0 65 to 127 byte frames    
+         0  9 collision frames          0 128 to 255 byte frames   
+         0 10 collision frames          0 256 to 511 byte frames   
+         0 11 collision frames          0 512 to 1023 byte frames  
+         0 12 collision frames          0 1024 to 1518 byte frames 
+         0 13 collision frames 
+         0 14 collision frames          0 Flooded frames           
+         0 15 collision frames          0 Overrun frames           
+         0 Excessive collisions         0 VLAN filtered frames     
+         0 Late collisions              0 Source routed frames     
+         0 Good (1 coll) frames         0 Valid oversize frames    
+         0 Good(>1 coll) frames         0 Pause frames             
+         0 Pause frames                 0 Symbol error frames      
+         0 VLAN discard frames          0 Invalid frames, too large
+         0 Excess defer frames          0 Valid frames, too large  
+         0 Too large frames             0 Invalid frames, too small
+         0 64 byte frames               0 Valid frames, too small  
+         0 127 byte frames     
+         0 255 byte frames     
+         0 511 byte frames     
+         0 1023 byte frames    
+         0 1518 byte frames    
+
+
+  Transmit FastEthernet0/13          Receive
+         0 Bytes                        0 Bytes                    
+         0 Unicast frames               0 Unicast frames           
+         0 Multicast frames             0 Multicast frames         
+         0 Broadcast frames             0 Broadcast frames         
+         0 Discarded frames             0 No dest, unicast         
+         0 Too old frames               0 No dest, multicast       
+         0 Deferred frames              0 No dest, broadcast       
+         0  1 collision frames 
+         0  2 collision frames          0 FCS errors               
+         0  3 collision frames          0 Oversize frames          
+         0  4 collision frames          0 Undersize frames         
+         0  5 collision frames          0 Collision fragments      
+         0  6 collision frames 
+         0  7 collision frames          0 Minimum size frames      
+         0  8 collision frames          0 65 to 127 byte frames    
+         0  9 collision frames          0 128 to 255 byte frames   
+         0 10 collision frames          0 256 to 511 byte frames   
+         0 11 collision frames          0 512 to 1023 byte frames  
+         0 12 collision frames          0 1024 to 1518 byte frames 
+         0 13 collision frames 
+         0 14 collision frames          0 Flooded frames           
+         0 15 collision frames          0 Overrun frames           
+         0 Excessive collisions         0 VLAN filtered frames     
+         0 Late collisions              0 Source routed frames     
+         0 Good (1 coll) frames         0 Valid oversize frames    
+         0 Good(>1 coll) frames         0 Pause frames             
+         0 Pause frames                 0 Symbol error frames      
+         0 VLAN discard frames          0 Invalid frames, too large
+         0 Excess defer frames          0 Valid frames, too large  
+         0 Too large frames             0 Invalid frames, too small
+         0 64 byte frames               0 Valid frames, too small  
+         0 127 byte frames     
+         0 255 byte frames     
+         0 511 byte frames     
+         0 1023 byte frames    
+         0 1518 byte frames    
+
+
+  Transmit FastEthernet0/14          Receive
+         0 Bytes                        0 Bytes                    
+         0 Unicast frames               0 Unicast frames           
+         0 Multicast frames             0 Multicast frames         
+         0 Broadcast frames             0 Broadcast frames         
+         0 Discarded frames             0 No dest, unicast         
+         0 Too old frames               0 No dest, multicast       
+         0 Deferred frames              0 No dest, broadcast       
+         0  1 collision frames 
+         0  2 collision frames          0 FCS errors               
+         0  3 collision frames          0 Oversize frames          
+         0  4 collision frames          0 Undersize frames         
+         0  5 collision frames          0 Collision fragments      
+         0  6 collision frames 
+         0  7 collision frames          0 Minimum size frames      
+         0  8 collision frames          0 65 to 127 byte frames    
+         0  9 collision frames          0 128 to 255 byte frames   
+         0 10 collision frames          0 256 to 511 byte frames   
+         0 11 collision frames          0 512 to 1023 byte frames  
+         0 12 collision frames          0 1024 to 1518 byte frames 
+         0 13 collision frames 
+         0 14 collision frames          0 Flooded frames           
+         0 15 collision frames          0 Overrun frames           
+         0 Excessive collisions         0 VLAN filtered frames     
+         0 Late collisions              0 Source routed frames     
+         0 Good (1 coll) frames         0 Valid oversize frames    
+         0 Good(>1 coll) frames         0 Pause frames             
+         0 Pause frames                 0 Symbol error frames      
+         0 VLAN discard frames          0 Invalid frames, too large
+         0 Excess defer frames          0 Valid frames, too large  
+         0 Too large frames             0 Invalid frames, too small
+         0 64 byte frames               0 Valid frames, too small  
+         0 127 byte frames     
+         0 255 byte frames     
+         0 511 byte frames     
+         0 1023 byte frames    
+         0 1518 byte frames    
+
+
+  Transmit FastEthernet0/15          Receive
+         0 Bytes                        0 Bytes                    
+         0 Unicast frames               0 Unicast frames           
+         0 Multicast frames             0 Multicast frames         
+         0 Broadcast frames             0 Broadcast frames         
+         0 Discarded frames             0 No dest, unicast         
+         0 Too old frames               0 No dest, multicast       
+         0 Deferred frames              0 No dest, broadcast       
+         0  1 collision frames 
+         0  2 collision frames          0 FCS errors               
+         0  3 collision frames          0 Oversize frames          
+         0  4 collision frames          0 Undersize frames         
+         0  5 collision frames          0 Collision fragments      
+         0  6 collision frames 
+         0  7 collision frames          0 Minimum size frames      
+         0  8 collision frames          0 65 to 127 byte frames    
+         0  9 collision frames          0 128 to 255 byte frames   
+         0 10 collision frames          0 256 to 511 byte frames   
+         0 11 collision frames          0 512 to 1023 byte frames  
+         0 12 collision frames          0 1024 to 1518 byte frames 
+         0 13 collision frames 
+         0 14 collision frames          0 Flooded frames           
+         0 15 collision frames          0 Overrun frames           
+         0 Excessive collisions         0 VLAN filtered frames     
+         0 Late collisions              0 Source routed frames     
+         0 Good (1 coll) frames         0 Valid oversize frames    
+         0 Good(>1 coll) frames         0 Pause frames             
+         0 Pause frames                 0 Symbol error frames      
+         0 VLAN discard frames          0 Invalid frames, too large
+         0 Excess defer frames          0 Valid frames, too large  
+         0 Too large frames             0 Invalid frames, too small
+         0 64 byte frames               0 Valid frames, too small  
+         0 127 byte frames     
+         0 255 byte frames     
+         0 511 byte frames     
+         0 1023 byte frames    
+         0 1518 byte frames    
+
+
+  Transmit FastEthernet0/16          Receive
+         0 Bytes                        0 Bytes                    
+         0 Unicast frames               0 Unicast frames           
+         0 Multicast frames             0 Multicast frames         
+         0 Broadcast frames             0 Broadcast frames         
+         0 Discarded frames             0 No dest, unicast         
+         0 Too old frames               0 No dest, multicast       
+         0 Deferred frames              0 No dest, broadcast       
+         0  1 collision frames 
+         0  2 collision frames          0 FCS errors               
+         0  3 collision frames          0 Oversize frames          
+         0  4 collision frames          0 Undersize frames         
+         0  5 collision frames          0 Collision fragments      
+         0  6 collision frames 
+         0  7 collision frames          0 Minimum size frames      
+         0  8 collision frames          0 65 to 127 byte frames    
+         0  9 collision frames          0 128 to 255 byte frames   
+         0 10 collision frames          0 256 to 511 byte frames   
+         0 11 collision frames          0 512 to 1023 byte frames  
+         0 12 collision frames          0 1024 to 1518 byte frames 
+         0 13 collision frames 
+         0 14 collision frames          0 Flooded frames           
+         0 15 collision frames          0 Overrun frames           
+         0 Excessive collisions         0 VLAN filtered frames     
+         0 Late collisions              0 Source routed frames     
+         0 Good (1 coll) frames         0 Valid oversize frames    
+         0 Good(>1 coll) frames         0 Pause frames             
+         0 Pause frames                 0 Symbol error frames      
+         0 VLAN discard frames          0 Invalid frames, too large
+         0 Excess defer frames          0 Valid frames, too large  
+         0 Too large frames             0 Invalid frames, too small
+         0 64 byte frames               0 Valid frames, too small  
+         0 127 byte frames     
+         0 255 byte frames     
+         0 511 byte frames     
+         0 1023 byte frames    
+         0 1518 byte frames    
+
+
+  Transmit FastEthernet0/17          Receive
+         0 Bytes                        0 Bytes                    
+         0 Unicast frames               0 Unicast frames           
+         0 Multicast frames             0 Multicast frames         
+         0 Broadcast frames             0 Broadcast frames         
+         0 Discarded frames             0 No dest, unicast         
+         0 Too old frames               0 No dest, multicast       
+         0 Deferred frames              0 No dest, broadcast       
+         0  1 collision frames 
+         0  2 collision frames          0 FCS errors               
+         0  3 collision frames          0 Oversize frames          
+         0  4 collision frames          0 Undersize frames         
+         0  5 collision frames          0 Collision fragments      
+         0  6 collision frames 
+         0  7 collision frames          0 Minimum size frames      
+         0  8 collision frames          0 65 to 127 byte frames    
+         0  9 collision frames          0 128 to 255 byte frames   
+         0 10 collision frames          0 256 to 511 byte frames   
+         0 11 collision frames          0 512 to 1023 byte frames  
+         0 12 collision frames          0 1024 to 1518 byte frames 
+         0 13 collision frames 
+         0 14 collision frames          0 Flooded frames           
+         0 15 collision frames          0 Overrun frames           
+         0 Excessive collisions         0 VLAN filtered frames     
+         0 Late collisions              0 Source routed frames     
+         0 Good (1 coll) frames         0 Valid oversize frames    
+         0 Good(>1 coll) frames         0 Pause frames             
+         0 Pause frames                 0 Symbol error frames      
+         0 VLAN discard frames          0 Invalid frames, too large
+         0 Excess defer frames          0 Valid frames, too large  
+         0 Too large frames             0 Invalid frames, too small
+         0 64 byte frames               0 Valid frames, too small  
+         0 127 byte frames     
+         0 255 byte frames     
+         0 511 byte frames     
+         0 1023 byte frames    
+         0 1518 byte frames    
+
+
+  Transmit FastEthernet0/18          Receive
+         0 Bytes                        0 Bytes                    
+         0 Unicast frames               0 Unicast frames           
+         0 Multicast frames             0 Multicast frames         
+         0 Broadcast frames             0 Broadcast frames         
+         0 Discarded frames             0 No dest, unicast         
+         0 Too old frames               0 No dest, multicast       
+         0 Deferred frames              0 No dest, broadcast       
+         0  1 collision frames 
+         0  2 collision frames          0 FCS errors               
+         0  3 collision frames          0 Oversize frames          
+         0  4 collision frames          0 Undersize frames         
+         0  5 collision frames          0 Collision fragments      
+         0  6 collision frames 
+         0  7 collision frames          0 Minimum size frames      
+         0  8 collision frames          0 65 to 127 byte frames    
+         0  9 collision frames          0 128 to 255 byte frames   
+         0 10 collision frames          0 256 to 511 byte frames   
+         0 11 collision frames          0 512 to 1023 byte frames  
+         0 12 collision frames          0 1024 to 1518 byte frames 
+         0 13 collision frames 
+         0 14 collision frames          0 Flooded frames           
+         0 15 collision frames          0 Overrun frames           
+         0 Excessive collisions         0 VLAN filtered frames     
+         0 Late collisions              0 Source routed frames     
+         0 Good (1 coll) frames         0 Valid oversize frames    
+         0 Good(>1 coll) frames         0 Pause frames             
+         0 Pause frames                 0 Symbol error frames      
+         0 VLAN discard frames          0 Invalid frames, too large
+         0 Excess defer frames          0 Valid frames, too large  
+         0 Too large frames             0 Invalid frames, too small
+         0 64 byte frames               0 Valid frames, too small  
+         0 127 byte frames     
+         0 255 byte frames     
+         0 511 byte frames     
+         0 1023 byte frames    
+         0 1518 byte frames    
+
+
+  Transmit FastEthernet0/19          Receive
+         0 Bytes                        0 Bytes                    
+         0 Unicast frames               0 Unicast frames           
+         0 Multicast frames             0 Multicast frames         
+         0 Broadcast frames             0 Broadcast frames         
+         0 Discarded frames             0 No dest, unicast         
+         0 Too old frames               0 No dest, multicast       
+         0 Deferred frames              0 No dest, broadcast       
+         0  1 collision frames 
+         0  2 collision frames          0 FCS errors               
+         0  3 collision frames          0 Oversize frames          
+         0  4 collision frames          0 Undersize frames         
+         0  5 collision frames          0 Collision fragments      
+         0  6 collision frames 
+         0  7 collision frames          0 Minimum size frames      
+         0  8 collision frames          0 65 to 127 byte frames    
+         0  9 collision frames          0 128 to 255 byte frames   
+         0 10 collision frames          0 256 to 511 byte frames   
+         0 11 collision frames          0 512 to 1023 byte frames  
+         0 12 collision frames          0 1024 to 1518 byte frames 
+         0 13 collision frames 
+         0 14 collision frames          0 Flooded frames           
+         0 15 collision frames          0 Overrun frames           
+         0 Excessive collisions         0 VLAN filtered frames     
+         0 Late collisions              0 Source routed frames     
+         0 Good (1 coll) frames         0 Valid oversize frames    
+         0 Good(>1 coll) frames         0 Pause frames             
+         0 Pause frames                 0 Symbol error frames      
+         0 VLAN discard frames          0 Invalid frames, too large
+         0 Excess defer frames          0 Valid frames, too large  
+         0 Too large frames             0 Invalid frames, too small
+         0 64 byte frames               0 Valid frames, too small  
+         0 127 byte frames     
+         0 255 byte frames     
+         0 511 byte frames     
+         0 1023 byte frames    
+         0 1518 byte frames    
+
+
+  Transmit FastEthernet0/20          Receive
+         0 Bytes                        0 Bytes                    
+         0 Unicast frames               0 Unicast frames           
+         0 Multicast frames             0 Multicast frames         
+         0 Broadcast frames             0 Broadcast frames         
+         0 Discarded frames             0 No dest, unicast         
+         0 Too old frames               0 No dest, multicast       
+         0 Deferred frames              0 No dest, broadcast       
+         0  1 collision frames 
+         0  2 collision frames          0 FCS errors               
+         0  3 collision frames          0 Oversize frames          
+         0  4 collision frames          0 Undersize frames         
+         0  5 collision frames          0 Collision fragments      
+         0  6 collision frames 
+         0  7 collision frames          0 Minimum size frames      
+         0  8 collision frames          0 65 to 127 byte frames    
+         0  9 collision frames          0 128 to 255 byte frames   
+         0 10 collision frames          0 256 to 511 byte frames   
+         0 11 collision frames          0 512 to 1023 byte frames  
+         0 12 collision frames          0 1024 to 1518 byte frames 
+         0 13 collision frames 
+         0 14 collision frames          0 Flooded frames           
+         0 15 collision frames          0 Overrun frames           
+         0 Excessive collisions         0 VLAN filtered frames     
+         0 Late collisions              0 Source routed frames     
+         0 Good (1 coll) frames         0 Valid oversize frames    
+         0 Good(>1 coll) frames         0 Pause frames             
+         0 Pause frames                 0 Symbol error frames      
+         0 VLAN discard frames          0 Invalid frames, too large
+         0 Excess defer frames          0 Valid frames, too large  
+         0 Too large frames             0 Invalid frames, too small
+         0 64 byte frames               0 Valid frames, too small  
+         0 127 byte frames     
+         0 255 byte frames     
+         0 511 byte frames     
+         0 1023 byte frames    
+         0 1518 byte frames    
+
+
+  Transmit FastEthernet0/21          Receive
+         0 Bytes                        0 Bytes                    
+         0 Unicast frames               0 Unicast frames           
+         0 Multicast frames             0 Multicast frames         
+         0 Broadcast frames             0 Broadcast frames         
+         0 Discarded frames             0 No dest, unicast         
+         0 Too old frames               0 No dest, multicast       
+         0 Deferred frames              0 No dest, broadcast       
+         0  1 collision frames 
+         0  2 collision frames          0 FCS errors               
+         0  3 collision frames          0 Oversize frames          
+         0  4 collision frames          0 Undersize frames         
+         0  5 collision frames          0 Collision fragments      
+         0  6 collision frames 
+         0  7 collision frames          0 Minimum size frames      
+         0  8 collision frames          0 65 to 127 byte frames    
+         0  9 collision frames          0 128 to 255 byte frames   
+         0 10 collision frames          0 256 to 511 byte frames   
+         0 11 collision frames          0 512 to 1023 byte frames  
+         0 12 collision frames          0 1024 to 1518 byte frames 
+         0 13 collision frames 
+         0 14 collision frames          0 Flooded frames           
+         0 15 collision frames          0 Overrun frames           
+         0 Excessive collisions         0 VLAN filtered frames     
+         0 Late collisions              0 Source routed frames     
+         0 Good (1 coll) frames         0 Valid oversize frames    
+         0 Good(>1 coll) frames         0 Pause frames             
+         0 Pause frames                 0 Symbol error frames      
+         0 VLAN discard frames          0 Invalid frames, too large
+         0 Excess defer frames          0 Valid frames, too large  
+         0 Too large frames             0 Invalid frames, too small
+         0 64 byte frames               0 Valid frames, too small  
+         0 127 byte frames     
+         0 255 byte frames     
+         0 511 byte frames     
+         0 1023 byte frames    
+         0 1518 byte frames    
+
+
+  Transmit FastEthernet0/22          Receive
+         0 Bytes                        0 Bytes                    
+         0 Unicast frames               0 Unicast frames           
+         0 Multicast frames             0 Multicast frames         
+         0 Broadcast frames             0 Broadcast frames         
+         0 Discarded frames             0 No dest, unicast         
+         0 Too old frames               0 No dest, multicast       
+         0 Deferred frames              0 No dest, broadcast       
+         0  1 collision frames 
+         0  2 collision frames          0 FCS errors               
+         0  3 collision frames          0 Oversize frames          
+         0  4 collision frames          0 Undersize frames         
+         0  5 collision frames          0 Collision fragments      
+         0  6 collision frames 
+         0  7 collision frames          0 Minimum size frames      
+         0  8 collision frames          0 65 to 127 byte frames    
+         0  9 collision frames          0 128 to 255 byte frames   
+         0 10 collision frames          0 256 to 511 byte frames   
+         0 11 collision frames          0 512 to 1023 byte frames  
+         0 12 collision frames          0 1024 to 1518 byte frames 
+         0 13 collision frames 
+         0 14 collision frames          0 Flooded frames           
+         0 15 collision frames          0 Overrun frames           
+         0 Excessive collisions         0 VLAN filtered frames     
+         0 Late collisions              0 Source routed frames     
+         0 Good (1 coll) frames         0 Valid oversize frames    
+         0 Good(>1 coll) frames         0 Pause frames             
+         0 Pause frames                 0 Symbol error frames      
+         0 VLAN discard frames          0 Invalid frames, too large
+         0 Excess defer frames          0 Valid frames, too large  
+         0 Too large frames             0 Invalid frames, too small
+         0 64 byte frames               0 Valid frames, too small  
+         0 127 byte frames     
+         0 255 byte frames     
+         0 511 byte frames     
+         0 1023 byte frames    
+         0 1518 byte frames    
+
+
+  Transmit FastEthernet0/23          Receive
+         0 Bytes                        0 Bytes                    
+         0 Unicast frames               0 Unicast frames           
+         0 Multicast frames             0 Multicast frames         
+         0 Broadcast frames             0 Broadcast frames         
+         0 Discarded frames             0 No dest, unicast         
+         0 Too old frames               0 No dest, multicast       
+         0 Deferred frames              0 No dest, broadcast       
+         0  1 collision frames 
+         0  2 collision frames          0 FCS errors               
+         0  3 collision frames          0 Oversize frames          
+         0  4 collision frames          0 Undersize frames         
+         0  5 collision frames          0 Collision fragments      
+         0  6 collision frames 
+         0  7 collision frames          0 Minimum size frames      
+         0  8 collision frames          0 65 to 127 byte frames    
+         0  9 collision frames          0 128 to 255 byte frames   
+         0 10 collision frames          0 256 to 511 byte frames   
+         0 11 collision frames          0 512 to 1023 byte frames  
+         0 12 collision frames          0 1024 to 1518 byte frames 
+         0 13 collision frames 
+         0 14 collision frames          0 Flooded frames           
+         0 15 collision frames          0 Overrun frames           
+         0 Excessive collisions         0 VLAN filtered frames     
+         0 Late collisions              0 Source routed frames     
+         0 Good (1 coll) frames         0 Valid oversize frames    
+         0 Good(>1 coll) frames         0 Pause frames             
+         0 Pause frames                 0 Symbol error frames      
+         0 VLAN discard frames          0 Invalid frames, too large
+         0 Excess defer frames          0 Valid frames, too large  
+         0 Too large frames             0 Invalid frames, too small
+         0 64 byte frames               0 Valid frames, too small  
+         0 127 byte frames     
+         0 255 byte frames     
+         0 511 byte frames     
+         0 1023 byte frames    
+         0 1518 byte frames    
+
+
+  Transmit FastEthernet0/24          Receive
+1435832773 Bytes               3500832735 Bytes                    
+   2632633 Unicast frames         3477738 Unicast frames           
+  14565760 Multicast frames             0 Multicast frames         
+    434095 Broadcast frames          9900 Broadcast frames         
+         0 Discarded frames             3 No dest, unicast         
+         0 Too old frames               0 No dest, multicast       
+         0 Deferred frames              0 No dest, broadcast       
+         0  1 collision frames 
+         0  2 collision frames          0 FCS errors               
+         0  3 collision frames          0 Oversize frames          
+         0  4 collision frames          0 Undersize frames         
+         0  5 collision frames          0 Collision fragments      
+         0  6 collision frames 
+         0  7 collision frames     194084 Minimum size frames      
+         0  8 collision frames     193220 65 to 127 byte frames    
+         0  9 collision frames     834257 128 to 255 byte frames   
+         0 10 collision frames      32371 256 to 511 byte frames   
+         0 11 collision frames      16531 512 to 1023 byte frames  
+         0 12 collision frames    2217178 1024 to 1518 byte frames 
+         0 13 collision frames 
+         0 14 collision frames          0 Flooded frames           
+         0 15 collision frames          0 Overrun frames           
+         0 Excessive collisions         0 VLAN filtered frames     
+         0 Late collisions              0 Source routed frames     
+         0 Good (1 coll) frames         0 Valid oversize frames    
+         0 Good(>1 coll) frames         0 Pause frames             
+         0 Pause frames                 0 Symbol error frames      
+         0 VLAN discard frames          0 Invalid frames, too large
+         0 Excess defer frames          0 Valid frames, too large  
+         0 Too large frames             0 Invalid frames, too small
+   1435921 64 byte frames               0 Valid frames, too small  
+  16009251 127 byte frames     
+     25087 255 byte frames     
+    117494 511 byte frames     
+     17111 1023 byte frames    
+     27624 1518 byte frames    
+
+
+  Transmit GigabitEthernet0/1        Receive
+         0 Bytes                        0 Bytes                    
+         0 Unicast frames               0 Unicast frames           
+         0 Multicast frames             0 Multicast frames         
+         0 Broadcast frames             0 Broadcast frames         
+         0 Discarded frames             0 No dest, unicast         
+         0 Too old frames               0 No dest, multicast       
+         0 Deferred frames              0 No dest, broadcast       
+         0  1 collision frames 
+         0  2 collision frames          0 FCS errors               
+         0  3 collision frames          0 Oversize frames          
+         0  4 collision frames          0 Undersize frames         
+         0  5 collision frames          0 Collision fragments      
+         0  6 collision frames 
+         0  7 collision frames          0 Minimum size frames      
+         0  8 collision frames          0 65 to 127 byte frames    
+         0  9 collision frames          0 128 to 255 byte frames   
+         0 10 collision frames          0 256 to 511 byte frames   
+         0 11 collision frames          0 512 to 1023 byte frames  
+         0 12 collision frames          0 1024 to 1518 byte frames 
+         0 13 collision frames 
+         0 14 collision frames          0 Flooded frames           
+         0 15 collision frames          0 Overrun frames           
+         0 Excessive collisions         0 VLAN filtered frames     
+         0 Late collisions              0 Source routed frames     
+         0 Good (1 coll) frames         0 Valid oversize frames    
+         0 Good(>1 coll) frames         0 Pause frames             
+         0 Pause frames                 0 Symbol error frames      
+         0 VLAN discard frames          0 Invalid frames, too large
+         0 Excess defer frames          0 Valid frames, too large  
+         0 Too large frames             0 Invalid frames, too small
+         0 64 byte frames               0 Valid frames, too small  
+         0 127 byte frames     
+         0 255 byte frames     
+         0 511 byte frames     
+         0 1023 byte frames    
+         0 1518 byte frames    
+
+
+  Transmit GigabitEthernet0/2        Receive
+         0 Bytes                        0 Bytes                    
+         0 Unicast frames               0 Unicast frames           
+         0 Multicast frames             0 Multicast frames         
+         0 Broadcast frames             0 Broadcast frames         
+         0 Discarded frames             0 No dest, unicast         
+         0 Too old frames               0 No dest, multicast       
+         0 Deferred frames              0 No dest, broadcast       
+         0  1 collision frames 
+         0  2 collision frames          0 FCS errors               
+         0  3 collision frames          0 Oversize frames          
+         0  4 collision frames          0 Undersize frames         
+         0  5 collision frames          0 Collision fragments      
+         0  6 collision frames 
+         0  7 collision frames          0 Minimum size frames      
+         0  8 collision frames          0 65 to 127 byte frames    
+         0  9 collision frames          0 128 to 255 byte frames   
+         0 10 collision frames          0 256 to 511 byte frames   
+         0 11 collision frames          0 512 to 1023 byte frames  
+         0 12 collision frames          0 1024 to 1518 byte frames 
+         0 13 collision frames 
+         0 14 collision frames          0 Flooded frames           
+         0 15 collision frames          0 Overrun frames           
+         0 Excessive collisions         0 VLAN filtered frames     
+         0 Late collisions              0 Source routed frames     
+         0 Good (1 coll) frames         0 Valid oversize frames    
+         0 Good(>1 coll) frames         0 Pause frames             
+         0 Pause frames                 0 Symbol error frames      
+         0 VLAN discard frames          0 Invalid frames, too large
+         0 Excess defer frames          0 Valid frames, too large  
+         0 Too large frames             0 Invalid frames, too small
+         0 64 byte frames               0 Valid frames, too small  
+         0 127 byte frames     
+         0 255 byte frames     
+         0 511 byte frames     
+         0 1023 byte frames    
+         0 1518 byte frames    
+
